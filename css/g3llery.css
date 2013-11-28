@@ -27,7 +27,6 @@ body {
 top: 10px;
    bottom: 10px;
    overflow: hidden;
-   border-radius:5px;
 }
 .boxInner img {
    width: 100%;
@@ -46,24 +45,9 @@ top: 10px;
    color: #FFF;
    padding: 10px;
    text-align: center;
-   -webkit-transition: all 0.3s ease-out;
-   -moz-transition: all 0.3s ease-out;
-   -o-transition: all 0.3s ease-out;
-   transition: all 0.3s ease-out;
+
 }
-.boxInner:hover .titleBox {
-   margin-bottom: -256px;
-   -webkit-transition: all 0.3s ease-out;
-   -moz-transition: all 0.3s ease-out;
-   -o-transition: all 0.3s ease-out;
-   transition: all 0.3s ease-out;
-}
-.boxInner.logo:hover .titleBox {
-   margin-bottom: 0px;
-}
-.boxInner.error:hover .titleBox {
-   margin-bottom: 0px;
-}
+
 .logo{
   background:#222;
 }
